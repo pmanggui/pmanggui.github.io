@@ -1,0 +1,117 @@
+html {
+  font-size: 15px; /* 1rem === 15px */
+  line-height: 1.6; /* 24px/15px = 1.6 */
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #181818;
+}
+
+ul, ol, li{
+  list-style: none;
+  padding: 0;;
+}
+
+a {
+  text-decoration-color: #f8f9fa;
+}
+
+/*header*/
+.brand{
+  margin: 0;
+  font-family: 'Kopub Batang', serif;
+  font-size: 1.33333333rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.brand a{
+  font-family: inherit;
+}
+
+.navbar .navbar-toggler{
+  font-size: 0.9333333rem;
+  font-weight: 700;
+  line-height: 1.43;
+  letter-spacing: 0.21em;
+  color: #181818;
+}
+
+/* .navbar .navbar-nav .nav-item.active .nav-link{
+  color: orange;
+} */
+
+.navbar.navbar-light .navbar-toggler{
+  border: none;
+}
+
+.bg-light {
+  background-color: #f8f9fa00!important;
+}
+
+/* main */
+.my-5 {
+  margin-bottom: 2rem!important;
+}
+
+.header {
+  height: 600px;
+  background-image: linear-gradient(to bottom, transparent 0%, #fff 100%), url("./hos.jpg");
+  background-size: cover;
+}
+
+.padding__img {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 300px;
+}
+.hero {
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+  margin: 20px 20px;
+}
+
+.text {
+  padding-top: 50px;
+}
+
+.post__text {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.main {
+  margin-bottom: 100px;
+}
+
+.my__img {
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  border-radius: 100px;
+  border-style: solid;
+  /* margin: auto; */
+}
+
+.header2 {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.my__img img{
+  width: 100%;
+  height: auto;
+}
+
+.my__name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3333333;
+}
+
+.btn__instagram {
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
